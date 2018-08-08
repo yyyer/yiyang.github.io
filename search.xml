@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[使用 Git Pages + Hexo 搭建个人Blog]]></title>
+    <url>%2F2018%2F08%2F08%2FGit-Pages-Hexo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BABlog%2F</url>
+    <content type="text"><![CDATA[序经常看见别人自建博客十分的酷炫，自己就想建个博客，网上方法有那么多，弄来弄去最后什么也没弄出来 (其实我也这样) 本文就使用Git Pages + Hexo搭建一个个人博客 创建Github仓库登陆Github 注册一个账号(如果已有账号就登陆) 点击New repository 创建你的仓库 仓库名必须是你的 用户名.github.io ！！！ 安装Hexo关于安装Hexo这一段内容，建议参考官网 安装完成后，创建一个博客文件夹 win+r 启动cmd 进入你的博客文件夹cd /Users/Myblog/hexo 进行初始化 hexo init 创建好的文件目录(创建好的文件是灰色的) 配置Hexo打开_config.yml 作者注:打开这种文件推荐使用 Sublime 打开 Sublime是一款非常好用的代码、标记、散文的复杂文本编辑软件 非常推荐!怎么不给广告费：( 配置#Site 然后配置deploy 在repository里写上你的Github仓库地址 格式大致是https://github.com/用户名/仓库地址 启用Next主题请可以参考 Next教程 撰写文章运行 cmd进入你的博客文件夹 新建文章hexo new &quot;文章名&quot; 这样，你的文章 (文章名.md) 就保存在source/_posts目录下。如果要编辑就进入该目录但这个文件是.md 即Markdown ，所以要使用Markdown编辑器 作者注:推荐使用 Haroopad Sublime是一款最好用的markdown编辑软件 非常推荐!怎么又不给广告费：( 写完了文章，就差上传了 请严格安照以下顺序执行运行 cmd进入你的博客文件夹 执行hexo g hexo d 如果出现 Deployer not found: github或Deployer not found: git 则输入npm install hexo-deployer-git --save 在访问你的仓库地址 格式大致是仓库名.github.io这样，你的个人博客就建好啦！ 文章设置文章开头 从上往下分别是 文章题目，日期，标签 请自行填写 注意事项 如果你发现文章在主页上全部显示，那么请在适当位置加上&lt;!--more--&gt;即可 如果你按照上面的指示或自行修改文件内容，那么请记住：文件的冒号与内容之间必须加一个空格 创建新的页面hexo new page &quot;页面名称&quot; 标签页面123456789menu: home: / || home about: /about/ || user tags: /tags/ || tags categories: /categories/ || th archives: /archives/ || archive schedule: /schedule/ || calendar #sitemap: /sitemap.xml || sitemap #commonweal: /404/ || heartbeat 在cmd上输入hexo new page tags 如果你要修改标签的名称，请进入hexo/theme/next/languages/zh-Hans.yml中修改添加 作者注：以上内容可能不全，请各位dalao在评论中或在DaoVoice与我联系，我都会在第一时间回复你的！ (鞠躬) 如果你想了解建博客攻略请参考NexT文档 进阶如果你成功的创建了自己的博客(无Bug) 那么请继续往下走吧 (我才不会告诉你我也在走呢) 欢迎参观dalao们的装逼操作指南 hexo的next主题个性化教程：打造炫酷网站]]></content>
+      <tags>
+        <tag>科技</tag>
+      </tags>
+  </entry>
+</search>
